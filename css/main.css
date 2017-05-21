@@ -1,3 +1,95 @@
 body {
+	margin: 0 auto;
 	background-color: black;
+	color: #f4d286;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 50px;
+	overflow: hidden;
+	background-color: #ca3c25;
+	font-family: Roboto;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	display: inline-block;
+	color: #f4d286;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #67190d;
+	color: #ca3c25;
+}
+/*seccion 2, No pandas */
+.imagenes {
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	
+}
+.imagen {
+    border: 3px solid orange;
+    overflow: hidden;
+    height: auto;
+    width: 85%;
+}
+
+.marco {
+	display: inline-block;
+	width: 20%;
+}
+
+.cerrar {
+	position: absolute;
+    float: left;
+    color: white;
+    background-color: orange;
+    margin-top: 3px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+/*seccion 3, Botonera */
+.botonera {
+	width: 78%;
+	margin: 0 auto;
+	border: 3px solid orange;
+}
+
+.botonera ul li {
+	margin: 0 auto;
+	width: 33%;
+	text-align: center;
+}
+.botonera ul {
+	padding-left: 0px;
+}
+
+/*seccion 4, parrafos */
+.parrafo01 {
+	width: 40%;
+	height: auto;
+	float: left;
+	padding: 5% 2% 5% 8%;
+	text-align: justify;
+}
+
+.parrafo02 {
+	width:40%;
+	height: auto;
+	float: right;
+	padding: 5% 8% 5% 2%;
+	text-align: justify;
 }

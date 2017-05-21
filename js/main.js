@@ -1,1 +1,4 @@
-alert("existe");
+//alert("existe");
+function cerrar () {
+	alert("Cerrando");
+}
